@@ -7,7 +7,7 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body {
-    background-image: url( https://services.meteored.com/img/article/por-que-o-por-do-sol-esta-tao-bonito-nesses-dias-247551-1_1280.jpg);
+    background-image: url(https://istoe.com.br/wp-content/uploads/2020/12/capela-sistina.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -112,7 +112,7 @@ a:hover{
 }
 /*Página de Cadastro*/
 .theme{
-    background-image: url(https://static.todamateria.com.br/upload/no/it/noiteestreladasobrerodano-cke.jpg?auto_optimize=low);
+    background-image: url(https://pt.wahooart.com/Art.nsf/O/8BWMPJ/$File/Alexandre-Cabanel-Fallen-Angel.jpg);
 }
 .justify_center{
     display: flex;
