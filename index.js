@@ -129,6 +129,10 @@ btnConfirm.addEventListener('click', ()=>{
     inputConfirmSenha.setAttribute('type', 'password')
   }
 })
+function cadastrar()
+{
+    alert("Usuário Cadastrado");
+}
 
 
 
