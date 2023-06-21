@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Tela de Login</title>
 </head>
 <body>
@@ -12,12 +13,14 @@
             <h1>Entrar</h1>
 
             <div class="label-float">
-                <input type="text" id="usuario" paceholder="">
+                <input type="text" id="usuario" paceholder="" required>
                 <label for="usuario">Usuario</label>
             </div>
             <div class="label-float">
-                <input type="password" id="senha" paceholder="">
+                <input type="password" id="senha" paceholder="" required>
                 <label for="usuario">Senha</label>
+                <i class="fa fa-eye" aria-hidden="true"></i>
+
             </div>
             <div class="justify-center">
                 <button>Entrar</button> 
@@ -25,8 +28,9 @@
             <div class="justify-center">
                 <hr>
             </div>
-            <p>Não tem uma Conta? <a href="">Cadastre-se</a></p>
+            <p>Não tem uma Conta? <a href="/cadastro.html">Cadastre-se</a></p>
         </div>
     </div>
+    <script src=./index.js></script>
 </body>
 </html>

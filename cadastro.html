@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça Seu Cadastro</title>
+    <link rel="stylesheet" href="./style.css">
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+
+    <body class="theme">
+        <div class="container">
+            <div class="card_cad">
+                <h1>Cadastrar</h1>
+                
+                <div class="label-float">
+                    <input type="text" id="nome" paceholder="" required>
+                    <label id="labelNome" for="usuario">Nome</label>
+                </div>
+    
+                <div class="label-float">
+                    <input type="text" id="usuario" paceholder="" required>
+                    <label id="labelUsuario" for="usuario">Usuario</label>
+                </div>
+                <div class="label-float">
+                    <input type="password" id="senha" placeholder=" " required>
+                    <label id="labelSenha" for="usuario
+                    
+                    
+                    ">Senha</label>
+                    <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+                    
+                 </div>
+     
+                 <div class="label-float">
+                    <input type="password" id="confirmSenha" placeholder=" " required>
+                    <label id="labelConfirmSenha" for="confirmSenha">Confirmar Senha</label>
+                    <i id="verConfirmSenha" class="fa fa-eye" aria-hidden="true"></i>
+                 </div>
+                
+                <div class="justify_center">
+                    <button onclick="cadastrar()">Cadastrar</button> 
+                </div>
+                <div class="justify_center">
+                    <hr>
+                </div>
+                <p>Já possui conta? <a href="/index.html">Faça login</a></p>
+            </div>
+        </div>
+        <script src="/index.js"></script>
+    </body>
+    </html>

@@ -61,7 +61,8 @@ body {
     margin-top: 13px;
     transition: all .3s ease-out;
 }
-.label-float input:focus + label{
+.label-float input:focus + label,
+.label-float input:valid + label {
     font-size: 13px;
     margin-top:0;
     color:#4038a0;
@@ -109,3 +110,31 @@ a{
 a:hover{
     color:#0767e6;
 }
+/*Página de Cadastro*/
+.theme{
+    background-image: url(https://static.todamateria.com.br/upload/no/it/noiteestreladasobrerodano-cke.jpg?auto_optimize=low);
+}
+.justify_center{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    justify-content: center;
+    margin-top:10%;
+    margin-bottom: 10%;
+    width: 60%;
+}
+.card_cad{
+    background-color: #ffffff80;
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px #00000060;
+    width:400px;
+}
+.fa-eye{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+    color: #111001;
+  }
