@@ -108,7 +108,7 @@ a{
     
 }
 a:hover{
-    color:#0767e6;
+    color:#002e6b;
 }
 /*Página de Cadastro*/
 .theme{
@@ -128,7 +128,7 @@ hr{
     background-color: #ffffff80;
     padding: 30px;
     border-radius: 4%;
-    box-shadow: 3px 3px 1px 0px #00000060;
+    box-shadow: 3px 3px 1px 1px #00000060;
     width:400px;
 }
 .fa-eye{
