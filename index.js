@@ -98,7 +98,7 @@ function cadastrar(){
     msgError.innerHTML = ''
     
     setTimeout(()=>{
-        window.location.href = 'https://http://127.0.0.1:5500/index.html'
+        window.location.href = 'https://www.louvre.fr/en'
     }, 3000)
   
     
